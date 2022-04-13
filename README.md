@@ -30,11 +30,9 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL:
-  []
+- Solution URL: [https://github.com/Jack-WebDev/3-Column-Card.git]
 
-- Live Site URL:
-  []
+- Live Site URL: [https://jack-webdev.github.io/3-Column-Card/]
 
 ## My Process
 
