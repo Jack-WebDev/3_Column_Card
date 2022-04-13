@@ -19,6 +19,8 @@ An extra S/O to Frontend Mentor for availing these challenges help me improve my
 
 ## Overview
 
+This is my very first project using TailwindCSS. I really enjoyed it.
+
 ### The Challenge
 
 Your users should be able to:
