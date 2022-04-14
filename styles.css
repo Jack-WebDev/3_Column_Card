@@ -1,0 +1,14 @@
+
+@media screen and (min-width: 768px) {
+    .sedans, .suvs, .luxury {
+        height: 65vh;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .sedans, .suvs, .luxury {
+        height: 60vh;
+    }
+}
+
+

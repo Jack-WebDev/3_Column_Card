@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="stylesheet" href="styles.css">
     <title>Frontend Mentor | 3-column preview card component</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,9 +25,9 @@
         }
       </script>
   </head>
-  <body>
-    <div class="container bg-lgray px-5 py-20 min-h-screen min-w-full md:flex md:px-10 lg:px-48">
-      <div class="sedans bg-brightorange rounded-t-md px-10 pb-10 pt-10 h-full md:rounded-t-none md:rounded-l-lg">
+  <body class="bg-lgray">
+    <main class="container  px-5 py-20 grid grid-flow-column min-w-full md:flex md:px-10 lg:px-48">
+      <div class="sedans bg-brightorange rounded-t-md px-10 pb-10 pt-10 md:rounded-t-none md:rounded-l-lg">
         <img src="images/icon-sedans.svg" alt="icon-sedans">
         <h2 class="text-3xl text-white pt-10 pb-2 font-medium">SEDANS</h2>
         <p class="text-paragraphs py-2 font-medium">
@@ -39,7 +40,7 @@
         </button>
       </div>
 
-      <div class="suvs bg-darkcyan px-10 pt-10 pb-10 h-full">
+      <div class="suvs bg-darkcyan px-10 pt-10 pb-10">
         <img src="images/icon-suvs.svg" alt="icon-suvs">
         <h2 class="text-3xl text-white pt-10 pb-2 font-medium">SUVs</h2>
         <p class="text-paragraphs py-2 font-medium">
@@ -51,7 +52,7 @@
         </button>
       </div>
 
-      <div class="luxury bg-verydcyan rounded-b-md px-10 pt-10 pb-10 h-full md:rounded-b-none md:rounded-r-lg lg-h-auto">
+      <div class="luxury bg-verydcyan rounded-b-md px-10 pt-10 pb-10 md:rounded-b-none md:rounded-r-lg lg-h-auto">
         <img src="images/icon-luxury.svg" alt="icon-luxury">
         <h2 class="text-3xl text-white pt-10 pb-2 font-medium">Luxury</h2>
         <p class="text-paragraphs py-2 font-medium">
@@ -62,6 +63,6 @@
           Learn More
         </button>
       </div>
-    </div>
+    </main>
   </body>
 </html>
